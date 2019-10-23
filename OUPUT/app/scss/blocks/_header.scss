@@ -1,0 +1,20 @@
+$module: 'header';
+
+.#{$module} {
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: baseline;
+    min-height: 228px;
+    background-color: $green;
+    &__title {
+    	margin: auto;
+        color: $white;
+	}
+}
+
+
+
+

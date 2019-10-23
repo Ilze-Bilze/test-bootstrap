@@ -1,0 +1,35 @@
+$module: 'social-icons';
+
+.#{$module} {
+	display: none;
+    position: fixed;
+    top: 255px;
+    right: 0;
+    flex-direction: column;
+    justify-content: space-around;
+    background: $dkBlue;
+    color: $white;
+    margin: 0;
+    padding: 10px 10px 10px 25px;
+    @media #{$mq-1024-up}{
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+    }
+    &__item {
+    	 display: block;
+        list-style: none;
+        .#{$module}__link {
+        	display: block;
+            padding: 5px 0;
+            color: $white;
+            font-size: 20px;
+        }
+	}
+}
+
+
+
+

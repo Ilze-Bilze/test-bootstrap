@@ -1,0 +1,36 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "html, sass, css, bootstrap test",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ilze-Bilze/test-bootstrap.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Ilze Spruge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ilze-Bilze/test-bootstrap/issues"
+  },
+  "homepage": "https://github.com/Ilze-Bilze/test-bootstrap#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "fsevents": "^2.1.1",
+    "gulp-pixrem": "^1.0.0",
+    "gulp-rename": "^1.4.0",
+    "jquery": "^3.4.1",
+    "peer": "^0.2.10",
+    "pixrem": "^5.0.0",
+    "popper.js": "^1.16.0"
+  }
+}

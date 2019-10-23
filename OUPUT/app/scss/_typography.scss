@@ -1,0 +1,28 @@
+h1, h2, h3 {
+    font-weight: 700;
+    margin-top: 0;
+    font-family: serif;
+}
+
+h1 {
+    font-size: 3rem;
+    @media #{$mq-1024-up}{
+        font-size: 3rem;
+    }
+}
+
+h2 {
+    font-size: 1.5rem;
+    @media #{$mq-1024-up}{
+        font-size: 2rem;
+    }
+}
+p {
+    line-height: 1.6;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: 0;
+    &.lede {
+        color: $dkGray;
+    }
+}

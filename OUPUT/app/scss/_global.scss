@@ -1,0 +1,23 @@
+html {
+    display: block;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+html,
+body {
+    margin: 0 0;
+    height: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;   
+}
+
+body {
+    color: $black;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+article {
+    position: relative;
+    padding-bottom: 60px;
+}
