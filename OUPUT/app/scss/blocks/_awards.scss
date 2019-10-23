@@ -1,17 +1,12 @@
 $module: 'media';
 
 .#{$module} {
-	display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
+	@include make-container();
     -webkit-flex-flow: column wrap;
     flex-flow: column wrap;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    @media #{$mq-1024-up} {
+    padding-right: 0;
+    padding-left: 0;
+    @include media-breakpoint-up(lg) {
         -webkit-flex-flow: row wrap;
         flex-flow: row wrap;
         justify-content: flex-start;
@@ -23,7 +18,7 @@ $module: 'media';
         &--first {
             border-top: 1px solid $gray;
         }
-        @media #{$mq-1024-up} {
+        @include media-breakpoint-up(lg) {
             width: 33.333%;
             &:nth-child(-n+3) {
                 border-top: 1px solid $gray;

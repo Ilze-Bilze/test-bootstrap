@@ -1,32 +1,27 @@
 $module: 'intro';
 
 .#{$module} {
-	margin: auto;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    margin: 0 auto;
-    align-items: baseline;
+    @include make-row();
     &__inner {
     	margin: auto;
+        @include make-container();
         max-width: 700px;
-        padding: 60px 32px 40px 32px;
+        padding-top: 60px;
+        padding-bottom: 40px;
         text-align: center;
-        @media #{$mq-1024-up} {
+        @include media-breakpoint-up(lg) {
             text-align: left;
-            padding: 60px 15px;
+            padding-top: 60px;
+            padding-bottom: 60px;
         }
 	}
     &__title {
+        @include make-container();
         display: block;
         border-bottom: 1px solid $gray;
-        margin-left: -32px;
-        margin-right: -32px;
         padding-bottom: 60px;
         margin-bottom: 60px;
-        @media #{$mq-640-up} {
+        @include media-breakpoint-up(sm) {
             display: none;
         }
     }

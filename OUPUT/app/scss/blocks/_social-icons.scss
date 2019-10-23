@@ -11,7 +11,7 @@ $module: 'social-icons';
     color: $white;
     margin: 0;
     padding: 10px 10px 10px 25px;
-    @media #{$mq-1024-up}{
+    @include media-breakpoint-up(lg) {
         display: -webkit-box;
         display: -moz-box;
         display: -ms-flexbox;

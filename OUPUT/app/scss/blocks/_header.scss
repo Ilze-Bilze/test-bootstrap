@@ -1,11 +1,7 @@
 $module: 'header';
 
 .#{$module} {
-	display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
+	@include make-row();
     align-items: baseline;
     min-height: 228px;
     background-color: $green;
