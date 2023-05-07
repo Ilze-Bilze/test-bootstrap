@@ -30,7 +30,7 @@
     "gulp-rename": "^1.4.0",
     "jquery": "^3.4.1",
     "jquery.js": "0.0.2-security",
-    "peer": "^0.2.10",
+    "peer": "^1.0.0",
     "pixrem": "^5.0.0",
     "popper.js": "^1.16.0"
   }
